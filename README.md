@@ -2,9 +2,10 @@
 
 ## Prerequisites
 
-run the following commands in your terminal to install requests and pysocks module in your pc.
+Run the following commands in your terminal to install requests and pysocks module in your pc.
 
 ```pip install requests```
+
 ```pip install pysocks```
 
 ## Steps to run
