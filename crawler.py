@@ -1,8 +1,8 @@
 # -- RunScraper -- 
 
-# This Python file simply runs the ahmia_scraper while also checking that our VPN is on
+# This Python file simply runs the ahmia_crawler while also checking that our VPN is on
 
-#import the actual scraper
+#import the actual crawler
 import requests
 
 url = "http://ip-api.com/json/"
@@ -22,6 +22,6 @@ print("Status is",safe)
 
 if safe == True:
     import ahmia_crawler
-    ahmia_crawler.Scraper()
+    ahmia_crawler.Crawler()
 else:
     print("IP change failed, try again later.")

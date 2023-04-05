@@ -1,6 +1,6 @@
 #  -- AHMIA SCRAPER --
 
-def Scraper():
+def Crawler():
     import requests
     import random
     
