@@ -26,5 +26,3 @@ if safe == True:
 else:
     print("IP change failed, try again later.")
     
-    
-    
