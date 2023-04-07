@@ -69,3 +69,5 @@ try:
             print(E)
 except:
     print("Usage : {} <newlineSeperatedList.txt>".format(programname))
+    
+    
