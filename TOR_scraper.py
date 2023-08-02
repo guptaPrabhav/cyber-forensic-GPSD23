@@ -2,6 +2,8 @@
 
 # Searching the Tor network for the urls found on 'ahmia.fi'
 
+# The code defines a Python script that uses the Tor network to make anonymous HTTP requests to a list of URLs provided in a newline-separated text file and saves the HTML response of each URL to individual text files. It utilizes the `requests` library and a Tor proxy to achieve this functionality.
+
 def torSearcher(url):
     # BEFORE YOU START - RUN tor.exe !!!!
     
